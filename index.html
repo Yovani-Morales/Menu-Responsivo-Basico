@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/7cba6a3193.js" crossorigin="anonymous"></script>
+    <title>Menu Responsive</title>
+</head>
+<body>
+    <header>
+        <nav class="container-nav">
+            <div class="container-logo">
+                <div class="logo">
+                    <a href="#"><i class="fa-brands fa-yoast"></i></a>
+                </div>
+                <h2 class="title-logo">Yovany Morales</h2>
+            </div>
+
+            <ul class="container-a">
+                <a href="#"><i class="fa-solid fa-house"></i>Inicio</a>
+                <a href="#"><i class="fa-solid fa-user"></i>Acerca de</a>
+                <a href="#"><i class="fa-solid fa-computer"></i>Habilidades</a>
+                <a href="#"><i class="fa-solid fa-diagram-project"></i>Proyectos</a>
+                <a href="#"><i class="fa-solid fa-address-card"></i>Contacto</a>
+            </ul>
+        </nav>
+
+        <div class="nav-responsive">
+            <div class="container-logo-responsive">
+                <div class="logo-responsive">
+                    <a href="#"><i class="fa-brands fa-yoast"></i></a>
+                </div>
+                <h2 class="title-logo-responsive">Yovany Morales</h2>
+            </div>
+
+            <i class="fa-solid fa-bars button open" id="open"></i>
+            <i class="fa-solid fa-x button" id="close"></i>
+
+        </div>
+        
+        <nav class="container-a-responsive" id="container-a-responsive">
+            <a href="#"><i class="fa-solid fa-house"></i>Inicio</a>
+            <a href="#"><i class="fa-solid fa-user"></i>Acerca de</a>
+            <a href="#"><i class="fa-solid fa-computer"></i>Habilidades</a>
+            <a href="#"><i class="fa-solid fa-diagram-project"></i>Proyectos</a>
+            <a href="#"><i class="fa-solid fa-address-card"></i>Contacto</a>
+        </nav>
+    </header>
+
+    <script src="main.js"></script>
+</body>
+</html>
